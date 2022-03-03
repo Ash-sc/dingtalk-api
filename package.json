@@ -1,0 +1,29 @@
+{
+  "name": "dingtalk-api",
+  "version": "1.0.0",
+  "description": "### 基于node的钉钉api调用转发，解决本地无公网ip调用钉钉api提示“访问ip不在白名单之中”的问题。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ash-sc/dingtalk-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ash-sc/dingtalk-api/issues"
+  },
+  "homepage": "https://github.com/Ash-sc/dingtalk-api#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
